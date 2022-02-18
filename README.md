@@ -11,4 +11,5 @@
 <ul>
   <li>Entrar como Participante com "Código da Sala"</li>
   <li>Criação de Salas</li>
+  <li>Sala de Perguntas</li>
 </ul>
