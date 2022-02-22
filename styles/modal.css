@@ -47,6 +47,10 @@
     justify-content: center;
 }
 
+.modal-wrapper .modal .buttons > .button{
+    margin-right: .8rem;
+}
+
 .modal-wrapper .modal .buttons > button,
 .modal-wrapper .modal .buttons > .button{
     padding: 1.3rem 3.2rem;
