@@ -1,7 +1,7 @@
 {
   "name": "rocketq",
   "version": "1.0.0",
-  "description": "<div align=\"center\">\r <h1>Rocket.Q 🚀</h1>\r </div>",
+  "description": "Rocket.Q | Projeto desenvolvido em parceria com a RocketSeat",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,10 +11,14 @@
     "url": "git+https://github.com/iamgois/rocketq.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Thiago Gois",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/iamgois/rocketq/issues"
   },
-  "homepage": "https://github.com/iamgois/rocketq#readme"
+  "homepage": "https://github.com/iamgois/rocketq#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  }
 }
