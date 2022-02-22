@@ -1,0 +1,20 @@
+{
+  "name": "rocketq",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">\r <h1>Rocket.Q 🚀</h1>\r </div>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamgois/rocketq.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamgois/rocketq/issues"
+  },
+  "homepage": "https://github.com/iamgois/rocketq#readme"
+}

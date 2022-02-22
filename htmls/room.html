@@ -1,0 +1,169 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/room.css">
+        <link rel="stylesheet" href="styles/global.css">
+        <link rel="stylesheet" href="styles/modal.css">
+
+        <!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+        <!-- END FONTS -->
+
+        <title>Perguntas e Respostas | Rocket.Q</title>
+    </head>
+    <body>
+        
+        <div id="room" class="content">
+            <header>
+
+                <a href="home.html">
+                    <img src="assets/logo.svg" alt="Rocket.Q Logo"/>
+                </a>
+                <div class="buttons">
+
+                    <div class="button outlined">
+                        #323243
+                        <img src="assets/copy.svg" alt="Copiar numero da sala">
+                    </div>
+
+                    <a class="button" href="#">
+                        <img src="assets/users-white.svg" alt="Criar uma sala">
+                        Criar Sala
+                    </a>
+
+                </div>
+            </header>
+
+            <main>
+                <section id="question-form">
+                    <h2>Faça uma pergunta</h2>
+                    <form action="">
+                        <label class="sr-only" for="question">O que você quer perguntar</label>
+                        <textarea placeholder="O que você quer perguntar?" name="question" id="question"></textarea>
+                        
+                        <footer>
+
+                            <div class="">
+                                <img src="assets/lock.svg" alt="Cadeado">
+                                Esta pergunta é anônima
+                            </div>
+
+                            <button>Enviar</button>
+
+                        </footer>
+                    </form>
+                </section>
+
+                <section id="questions">
+                    <h2 class="sr-only">Perguntas da Comunidade</h2>
+                    <div class="questions">
+
+                        <div class="question-wrapper">
+                            <div class="question-content">
+                                <div class="user">
+                                    <img src="assets/user.svg" alt="Avatar">
+                                </div>
+                                <div class="question">
+                                    <p>Qual a diferença entre Const, Var e Let no JavaScript?</p>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <a href="#" class="check">
+                                    <img src="assets/check.svg" alt="Marcar como Lida">
+                                    Marcar como Lida
+                                </a>
+                                <a href="#" class="delete">
+                                    <img src="assets/trash.svg" alt="Excluir pergunta">
+                                    Excluir
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="question-wrapper">
+                            <div class="question-content">
+                                <div class="user">
+                                    <img src="assets/user.svg" alt="Avatar">
+                                </div>
+                                <div class="question">
+                                    <p>O que é JavaScript?</p>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <a href="#" class="check">
+                                    <img src="assets/check.svg" alt="Marcar como Lida">
+                                    Marcar como Lida
+                                </a>
+                                <a href="#" class="delete">
+                                    <img src="assets/trash.svg" alt="Excluir pergunta">
+                                    Excluir
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="question-wrapper read">
+                            <div class="question-content">
+                                <div class="user">
+                                    <img src="assets/user.svg" alt="Avatar">
+                                </div>
+                                <div class="question">
+                                    <p>O que é TypeScript?</p>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <a href="#" class="delete">
+                                    <img src="assets/trash.svg" alt="Excluir pergunta">
+                                    Excluir
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="question-wrapper read">
+                            <div class="question-content">
+                                <div class="user">
+                                    <img src="assets/user.svg" alt="Avatar">
+                                </div>
+                                <div class="question">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente adipisci ullam nemo voluptatibus, alias minima cum, quidem dolore minus quam maxime iure. Quia ex dolores provident alias earum, perferendis explicabo.</p>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <a href="#" class="delete">
+                                    <img src="assets/trash.svg" alt="Excluir pergunta">
+                                    Excluir
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                
+                </section>
+
+            </main>
+
+        </div>
+
+        <!-- MODAL -->
+
+        <div class="modal-wrapper">
+            <div class="modal">
+                <h2>Excluir pergunta?</h2>
+                <p>Tem certeza? Que você deseja excluir esta pergunta?</p>
+                
+                <form action="#">
+                    <label class="sr-only" for-id="password">Digite sua senha admin</label>
+                    <input type="password" id="password" name="password" placeholder="Digite sua senha">
+
+                    <div class="buttons">
+                        <div class="button grey">Cancelar</div>
+                        <button class="red">Sim, excluir!</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </body>
+</html>
