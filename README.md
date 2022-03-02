@@ -12,6 +12,8 @@
   <li>Entrar como Participante com "Código da Sala"</li>
   <li>Criação de Salas</li>
   <li>Sala de Perguntas</li>
+  <li>"Apagar" e "Marcar como lida" as perguntas</li>
+  <li>Parte dinâmica do Modal</li>
 </ul>
 
 <h1>Figma Concept ✅</h1>
