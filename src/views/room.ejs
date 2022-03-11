@@ -25,7 +25,7 @@
                 </a>
                 <div class="buttons">
 
-                    <div class="button outlined">
+                    <div class="button outlined" id="room-id" data-id="323243">
                         #323243
                         <img src="images/copy.svg" alt="Copiar numero da sala">
                     </div>
@@ -72,11 +72,11 @@
                                 </div>
                             </div>
                             <div class="actions">
-                                <a href="#" class="check">
+                                <a href="#" class="check" data-id="2">
                                     <img src="images/check.svg" alt="Marcar como Lida">
                                     Marcar como Lida
                                 </a>
-                                <a href="#" class="delete">
+                                <a href="#" class="delete" data-id="2">
                                     <img src="images/trash.svg" alt="Excluir pergunta">
                                     Excluir
                                 </a>
@@ -93,11 +93,32 @@
                                 </div>
                             </div>
                             <div class="actions">
-                                <a href="#" class="check">
+                                <a href="#" class="check" data-id="3">
                                     <img src="images/check.svg" alt="Marcar como Lida">
                                     Marcar como Lida
                                 </a>
-                                <a href="#" class="delete">
+                                <a href="#" class="delete" data-id="3">
+                                    <img src="images/trash.svg" alt="Excluir pergunta">
+                                    Excluir
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="question-wrapper">
+                            <div class="question-content">
+                                <div class="user">
+                                    <img src="images/user.svg" alt="Avatar">
+                                </div>
+                                <div class="question">
+                                    <p>Onde posso estudar programação?</p>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <a href="#" class="check" data-id="4">
+                                    <img src="images/check.svg" alt="Marcar como Lida">
+                                    Marcar como Lida
+                                </a>
+                                <a href="#" class="delete" data-id="4">
                                     <img src="images/trash.svg" alt="Excluir pergunta">
                                     Excluir
                                 </a>
@@ -114,24 +135,7 @@
                                 </div>
                             </div>
                             <div class="actions">
-                                <a href="#" class="delete">
-                                    <img src="images/trash.svg" alt="Excluir pergunta">
-                                    Excluir
-                                </a>
-                            </div>
-                        </div>
-                        
-                        <div class="question-wrapper read">
-                            <div class="question-content">
-                                <div class="user">
-                                    <img src="images/user.svg" alt="Avatar">
-                                </div>
-                                <div class="question">
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente adipisci ullam nemo voluptatibus, alias minima cum, quidem dolore minus quam maxime iure. Quia ex dolores provident alias earum, perferendis explicabo.</p>
-                                </div>
-                            </div>
-                            <div class="actions">
-                                <a href="#" class="delete">
+                                <a href="#" class="delete" data-id="1">
                                     <img src="images/trash.svg" alt="Excluir pergunta">
                                     Excluir
                                 </a>
@@ -153,7 +157,7 @@
                 <h2>Excluir pergunta?</h2>
                 <p>Tem certeza? Que você deseja excluir esta pergunta?</p>
                 
-                <form action="#">
+                <form action="#" method="POST">
                     <label class="sr-only" for-id="password">Digite sua senha admin</label>
                     <input type="password" id="password" name="password" placeholder="Digite sua senha">
 
