@@ -1,8 +1,24 @@
-module.exports = {
-    create(req, res){
-        let roomID = 123456
+const Database = require('../db/config')
 
-        createInfoBD = {}
+module.exports = {
+    async create(req, res){
+        const db = await Database()
+        const pass = req.body.password
+        let roomID 
+
+    for(var i = 0; i < 6; i++){
+        i == 0 ? roomID = Math.floor(Math.random() * 10).toString() : roomID += Math.floor(Math.random() * 10).toString()
+    }
+
+    await db.run(`INSERT INTO rooms (
+        id,
+        pass
+    ) VALUES(
+        ${parseInt(roomID)},
+        ${pass}
+    )`)
+
+    await db.close()
 
         res.redirect(`/room/${roomID}`)
     }
