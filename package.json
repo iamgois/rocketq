@@ -1,30 +1,23 @@
 {
-  "name": "rocketq",
+  "name": "RocketQ",
   "version": "1.0.0",
-  "description": "Rocket.Q | Projeto desenvolvido em parceria com a RocketSeat",
+  "description": "Projeto desenvolvido para gerenciar perguntas anonimas de usuários direcionadas ao dono da página. Projeto desenvolvido na semana NLW Rocketseat na missão discover",
   "main": "src/server.js",
   "scripts": {
     "start": "nodemon .",
     "init-db": "node src/db/init.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/iamgois/rocketq.git"
-  },
   "keywords": [],
-  "author": "Thiago Gois",
+  "author": "Jakeliny Gracielly",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/iamgois/rocketq/issues"
-  },
-  "homepage": "https://github.com/iamgois/rocketq#readme",
   "dependencies": {
     "ejs": "^3.1.6",
-    "express": "^4.17.3",
-    "sqlite": "^4.0.25",
+    "express": "^4.17.1",
+    "i": "^0.3.7",
+    "sqlite": "^4.0.23",
     "sqlite3": "^5.0.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.7"
   }
 }

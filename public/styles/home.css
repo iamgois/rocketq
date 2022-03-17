@@ -15,8 +15,8 @@ header{
 #bg{
     grid-area: left;
 
-    background: url('../images/home-bg-home.svg') no-repeat top/contain;
-    background-position-x: -5rem;
+    background: url('/images/home-bg-img.svg') no-repeat top/contain;
+    background-position-x: -10rem;
 }
 
 main{
@@ -24,25 +24,24 @@ main{
 
     display: flex;
     align-items: center;
+    margin-top: -12rem;
 }
 
-main .container{
+main .container{    
     width: min(36.3rem, 100%);
 }
 
 main h2{
     font-family: 'Poppins', sans-serif;
-    font-size: clamp(20px, 5vw, 2.8rem);
     color: var(--black);
+    font-size: clamp(20px, 5vw, 2.8rem);
     margin-bottom: 2.4rem;
 }
 
 input{
-    outline: none;
     border: .2rem solid var(--grey-blue);
     padding: 0 1.6rem;
-    height: 5rem;
-    border-radius: .8rem;
+    outline: none;
 }
 
 input, button, .button{
@@ -51,7 +50,6 @@ input, button, .button{
 }
 
 /* Separator Line */
-
 .separator{
     display: flex;
     align-items: center;
@@ -74,26 +72,25 @@ input, button, .button{
     height: 1px;
 }
 
-/* Create Balls */
-
+/*** create balls ***/
 .ball{
     width: 21.2rem;
     height: 21.2rem;
     background: var(--blue);
     clip-path: circle();
+    opacity: 0.1;
 
     position: fixed;
-    opacity: 0.1;
 }
 
 .ball.top{
-    width: 63.3rem;
-    height: 63.3rem;
     top: -46rem;
+    width: 63.3rem;
     right: -35rem;
+    height: 63.3rem;
 }
 
 .ball.bottom{
     bottom: -15rem;
-    right: 5.6rem;
+    right: 5.6rem
 }
